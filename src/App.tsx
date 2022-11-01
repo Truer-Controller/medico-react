@@ -17,7 +17,7 @@ export default function App() {
       </Route>
       <Route path="/lembrar" element={<Lembrar />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/" element={<Cadastro />} />
+      <Route path="/cadastro" element={<Cadastro />} />
     </Routes>
   );
 }
